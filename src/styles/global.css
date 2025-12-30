@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-gray-800 bg-gray-50 font-sans;
+}
+
+h1 {
+  @apply text-3xl md:text-4xl font-bold text-gray-900 mb-6;
+}
+
+h2 {
+  @apply text-2xl md:text-3xl font-bold text-gray-900 mb-4 mt-8;
+}
+
+h3 {
+  @apply text-xl font-bold text-gray-900 mb-3 mt-6;
+}
+
+p {
+  @apply mb-4 leading-relaxed text-gray-600;
+}
+
+.container-custom {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-block bg-primary text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-800 transition-colors shadow-sm;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border border-gray-100;
+}
